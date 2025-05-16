@@ -9,11 +9,11 @@ app = Flask(__name__)
 app.secret_key = "your_secret_key" 
 
 # Groq API details
-API_KEY = os.environ.get("GROQ_API_KEY", "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")
+API_KEY = os.environ.get("GROQ_API_KEY", "YOUR_API_KEY")
 API_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 # GOOGLE API details
-# API_KEY = os.environ.get("GOOGLE_API_KEY", gts_96H2FNLDWGdyb3FYCjq371ENrQJGzfIyZi0Rb0Th")
+# API_KEY = os.environ.get("GOOGLE_API_KEY"," YOUR_API_KEY")
 # API_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 
